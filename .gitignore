@@ -1,24 +1,49 @@
-# Logs
-logs
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-lerna-debug.log*
-
-node_modules
-dist
-dist-ssr
-*.local
-
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
-.DS_Store
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
+}
+    footer {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 10px;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+    @media (min-width: 768px) {
+      .container {
+        display: flex;
+        justify-content: space-around;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>SJL Construtora</h1>
+    <p>Construindo sonhos com qualidade e segurança</p>
+  </header>
+  <section class="container">
+    <div class="card">
+      <h2>Quem Somos</h2>
+      <p>Somos uma empresa de construção civil especializada em obras residenciais, comerciais e serviços de serralheria, sempre com compromisso e excelência.</p>
+    </div>
+    <div class="card">
+      <h2>Serviços</h2>
+      <ul>
+        <li>Construção e reforma</li>
+        <li>Serralheria em geral</li>
+        <li>Estruturas metálicas</li>
+        <li>Manutenção predial</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h2>Contato</h2>
+      <p>📞 Telefone: (00) 00000-0000</p>
+      <p>📧 Email: contato@sjlconstrutora.com</p>
+      <button>Fale Conosco</button>
+    </div>
+  </section>
+  <footer>
+    <p>© 2025 SJL Construtora. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
